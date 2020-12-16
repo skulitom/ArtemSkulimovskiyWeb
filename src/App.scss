@@ -1,0 +1,47 @@
+html::-webkit-scrollbar-track {
+  background-color: #050a12!important;
+}
+
+.title {
+  text-align: center;
+}
+
+.block {
+  margin: 1em;
+  padding: 1em;
+  background-color: #363636;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Martel', serif;
+  font-weight: normal;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #161616;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+html::-webkit-scrollbar {
+  width: 0.25rem!important;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #9c27b0!important;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #FFFFFF;
+}
+
+::selection {
+  color: black;
+  background: #FFFFFF;
+}
+
+
