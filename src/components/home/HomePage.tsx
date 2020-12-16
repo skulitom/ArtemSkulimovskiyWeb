@@ -1,5 +1,6 @@
 import React from 'react';
-import AboutMe from "./AboutMe";
+import AboutMe from './AboutMe';
+import ProjectExperience from './ProjectExperience';
 
 const HomePage = () => {
    return <>
@@ -7,6 +8,7 @@ const HomePage = () => {
          <h1>Artem Skulimovskiy</h1>
       </div>
       <AboutMe />
+      <ProjectExperience />
    </>
 }
 

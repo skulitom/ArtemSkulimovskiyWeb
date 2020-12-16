@@ -16,9 +16,6 @@ const theme = createMuiTheme({
       type: 'dark',
       primary: purple,
       secondary: cyan
-   },
-   status: {
-      danger: 'red',
    }
 });
 
